@@ -1,7 +1,9 @@
-/* css variable can also be used within Styled component
+/* NOTE: CSS variable- 'var() function' can also be used within Styled Components.
+
 Variables in CSS should be declared within a CSS selector that defines its scope. 
 For a global scope you can use either the :root or the body selector.
 The variable name must begin with two dashes (--) and is case sensitive!
+
 The syntax of the var() function is var(name, value) */
 :root {
   /* var(name, value) */
