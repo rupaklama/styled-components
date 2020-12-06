@@ -30,11 +30,13 @@ code {
 
 .first {
   letter-spacing: 5px;
+  /* The var() function is used to insert the value of a CSS variable. */
   color: var(--primaryColor);
 }
 
 
 .second {
   text-transform: uppercase;
+  /* The var() function is used to insert the value of a CSS variable. */
   color: var(--primaryColor);
 }
