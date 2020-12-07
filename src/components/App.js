@@ -18,6 +18,9 @@ import { redTheme, blueTheme, greenTheme } from './Themes.style';
 
 import Navbar from './Navbar';
 
+// NOTE: styled-components utilises 'tagged template literals' to style components
+// `` - tagged template literal
+
 // global style needs to be place at the top of your React tree 
 function App() {
   // return (
